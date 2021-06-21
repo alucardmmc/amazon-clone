@@ -1,0 +1,71 @@
+.header {
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 6.25rem;
+  align-self: center;
+  object-fit: contain;
+  margin: 0 1.25rem;
+  margin-top: 18px;
+  margin-bottom: auto;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px; /*does not do anything*/
+}
+
+.header__search-input {
+  height: 2rem;
+  padding: 0.625rem;
+  border: none;
+  width: 100%;
+}
+
+.header__search-icon {
+  padding: 0.3rem;
+  height: 2rem !important; /* Overrides Material UI behavior */
+  width: 2rem !important; /* Overrides Material UI behavior */
+  background-color: #cd9042;
+}
+
+.header__option--line-one {
+  font-size: 0.625rem;
+}
+
+.header__option--line-two {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.header__option--basket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basket--count {
+  margin: 0 0.625rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  color: white;
+}
